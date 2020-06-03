@@ -1316,7 +1316,7 @@ class OrderController extends ApiController
     }
 
     /**
-     * @Route("/movies", methods="POST")
+     * @Route("/orders", methods="POST")
      */
     public function cancel(Request $request)
     {
